@@ -95,7 +95,7 @@ header div ul li a{
 	align-self: center;
 }
 header div ul li:hover{
-	/* font-size: 2rem; */
+	font-size: 2rem;
 	background-color: black;
 }
 header div ul li a:hover{
