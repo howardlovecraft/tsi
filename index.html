@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>H.P. Lovecraft - Home</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Aguafina+Script|Slabo+27px&display=swap&subset=latin-ext" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+</head>
+<body>
+	<header class="flex"> 
+		<h1><img id="animação" src="img/img.png" alt=""><a href=""><img src="img/img.png" alt=""></a> H.P. Lovecraft </h1>
+		<p> "A emoção mais antiga e mais forte da humanidade é o medo, e o mais antigo e mais forte de todos os medos é
+			o medo do desconhecido." </p>
+		<div id="menu" class="flex">
+			<ul class="flex">
+				<li id="home"> <a href="./index.html"> Home </a> </li>
+				<li id="bio"> <a href="./biografia/biografia.index.html"> Biografia </a> </li>
+				<li id="curiosidades"> <a href="./curiosidades/curiosidades.index.html"> Curiosidades </a> </li>
+				<li id="contos"> <a href="./contos/contos.index.html"> Contos </a> </li>
+			</ul>
+		</div>
+	</header>
+	<main>
+		<div>
+			<h1> Home </h1><br>
+			<p> Esse site foi projetado com objetivo de informar sobre o escritor Howard Phillip Lovecraft, um renomado escritor do início do
+				século XX que revolucionou o suspense e o terror psicologico, criando o gênero "Horror Cósmico". Ele criou um próprio universo
+				chamado de "Cthulhu Mythos" com suas grandes obras, entra elas, a que se destaca mais: "The Call of Cthullhu".<br><br>
+
+				Muitas de suas obras são inspiradas em seus problemas pessoais como a depressão, e a solidão. No menu contém algumas opções,
+				entre elas temos a "Biografia", onde falamos sobre seu desenvolvimento como escritor, seus problemas, suas dificuldades, 
+				seu infeliz diagnóstico de câncer, etc... <br><br>
+
+				Já em curiosidades, apresentamos obras que foram influenciadas graças à herança "Lovecraftiana", desde músicas, filmes, jogos 
+				(em especial o RPG de mesa)... <br><br>
+
+				E por ultimo, estão disponiveis alguns contos na própria aba, demonstrando diretamente as sensações de claustrofobia, agonia
+				e desespero que se sente ao imergir em seu mundo de constante insanidade sem explicação, onde o desconhecido lhe causará mais 
+				medo do que o conhecido mundo palpável.
+				<br><br>
+
+				Espero que aproveite a visita ao desconhecido...
+			</p>
+		</div>
+	</main>
+	<footer>
+		<div id="grid1">
+			<form action="">
+				<h3> Fale conosco! </h3>
+			<fieldset>
+				<div>
+					<label for="name"> Nome: </label>
+					<input type="text" id="name" name="name" required> *
+				</div>
+				<div>
+					<label for="email"> Email: </label>
+					<input type="text" id="email" name="email" required> *
+				</div>
+				<div>
+					<label for="sexo"> Sexo: </label>
+					<select name="sexo" id="sexo">
+						<option value="masc"> Masculino </option>
+						<option value="fem"> Feminino </option>
+					</select>
+				</div>
+				<div>
+					<label for="date"> Nascimento: </label>
+					<input type="date" id="date" name="date" required> *
+				</div>
+				<div>
+					<label for="msg"> Texto: </label><br>
+					<textarea name="msg" id="msg" rows="3" cols="30" placeholder="escreva uma mensagem..."> </textarea>
+				</div>
+			</fieldset>
+			
+			<input type="submit" value="Enviar" class="send">
+			</form>
+		</div>
+
+		<div class="flex" id="grid2">
+			<aside>
+				<div class="fb-page" data-href="https://www.facebook.com/DreamingCthulhu/?ref=br_rs" data-tabs="timeline" data-width="400" data-height="200" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/DreamingCthulhu/?ref=br_rs" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/DreamingCthulhu/?ref=br_rs">Cthulhu</a></blockquote></div>
+			</aside>
+			<p id="bortop"> Redes Sociais: </p>
+			<section>
+				<ul>
+					<li> <a href=""> <i id="instagram" class="fab fa-instagram"></i> Instagram </a> </li>
+					<li> <a href=""> <i id="facebook" class="fab fa-facebook"></i> Facebook </a> </li>
+					<li> <a href=""> <i id="twitter" class="fab fa-twitter-square"></i> Twitter </a> </li>
+				</ul>
+			</section>
+		</div>
+	</footer>
+	<div id="fb-root"></div>
+	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v4.0"></script>
+</body>
+
+</html>
