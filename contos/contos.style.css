@@ -53,7 +53,7 @@ header img{
 }
 header p{
 	font-family: 'Aguafina Script', arial;
-	font-size: 22px;
+	font-size: 1.3em;
 }
 header h1, p{
 	margin: 20px;
@@ -195,7 +195,7 @@ footer div{
 }
 footer div p{
 	margin: 0%;
-	font-size: 20px;
+	font-size: 1.2em;
 }
 footer div section{
 	display: flex;
