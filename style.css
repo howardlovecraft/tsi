@@ -99,7 +99,7 @@ header div ul li:hover{
 	background-color: black;
 }
 header div ul li a:hover{
-	color:linear-gradient(white, green);
+	color:green;
 header div ul li a{
 	color: white;
 }
@@ -114,6 +114,7 @@ main{
 	border-bottom: solid #0e4235;
 	background-color: grey;
 	background-image: url(img/manyclei.jpg);
+	background-image: radial-gradient(#000,black);
 	padding-top: 20px;
 	padding-bottom: 20px;
 	background-attachment: fixed;
