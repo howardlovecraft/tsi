@@ -99,8 +99,7 @@ header div ul li:hover{
 	background-color: black;
 }
 header div ul li a:hover{
-	color:green;
-}
+	color:linear-gradient(white, green);
 header div ul li a{
 	color: white;
 }
